@@ -1,13 +1,37 @@
-groups:
-    - groupa
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
 attributes:
     osxdefaults:
-        computername: MyComputerName
+        computername: OskarsMacbookPro
     homebrewalt:
         apps:
             - git-extras
+            - git-flow
+            - htop-osx
+            - bash-completion
         cask_apps:
-            - sourcetree
+            - adobe-air
+            - airmail
+            - alfred
+            - appcleaner
+            - bartender
+            - caffeine
+            - dropbox
+            - evernote
+            - fantastical
+            - gas-mask
+            - java
+            - onepassword
+            - sizeup
+            - skype
+            - steam
+            - spotify
+            - the-unarchiver
+            - totalfinder
+            - vagrant
+            - virtualbox
+    nodejs:
+        apps:
+            - grunt
+            - grunt-cli 
